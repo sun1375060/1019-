@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+	</head>
+	<body>
+		<input type="text" name="" id="ipt" value="" /><br />
+		<button id="btn">提交</button>
+		
+		<script type="text/javascript">
+			ipt.oninput=function(){
+				if(ipt.value.length>=60){
+				btn.disabled=true;
+			}else{
+				btn.disabled=false;
+			}
+		}
+			
+			
+			
+		</script>
+	</body>
+</html>
